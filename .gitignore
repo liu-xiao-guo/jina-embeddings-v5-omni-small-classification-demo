@@ -1,0 +1,23 @@
+# Secrets (use .env.example as the template)
+.env
+
+# Generated sample datasets (recreate with: python datasets.py)
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
